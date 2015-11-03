@@ -1,28 +1,31 @@
 {
-  "uuid": "030ee5fc-518b-49e5-b9b2-0700ee92af89",
-  "shortName": "Simplicity",
-  "longName": "Simplicity",
-  "companyName": "Pebble Technology",
-  "versionCode": 3,
-  "versionLabel": "3.0",
-  "watchapp": {
-    "watchface": true
-  },
-  "appKeys": {},
-  "resources": {
-    "media": [
-      {
-        "menuIcon": true,
-        "type": "png",
-        "name": "IMAGE_MENU_ICON",
-        "file": "images/menu_icon_simplicity.png"
-      }
-    ]
-  },
-  "targetPlatforms": [
-    "aplite",
-    "basalt",
-    "chalk"
-  ],
-  "sdkVersion": "3"
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Pebble Technology",
+    "longName": "Simplicity",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/menu_icon_simplicity.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Simplicity",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "030ee5fc-518b-49e5-b9b2-0700ee92af89",
+    "versionLabel": "3.0",
+    "watchapp": {
+        "watchface": true
+    }
 }
